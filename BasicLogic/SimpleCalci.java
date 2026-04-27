@@ -1,10 +1,37 @@
 
 import java.util.Scanner;
 
+class Calci{
+    public int addition(int num1, int num2){
+        int res = num1 + num2;
+        return res;
+    }
+
+    public int subtraction(int num1, int num2){
+        int res = num1 - num2;
+        return res;
+    }
+    
+}
+class AdvaceCalc extends Calci{
+
+    public int Multiplication(int num1 , int num2){
+        int res = num1 * num2;
+        return res;
+    }
+
+
+    public int Division(int num1 , int num2){
+        int res = num1 / num2;
+        return res;
+    }
+}
+
 public class SimpleCalci{
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
+        AdvaceCalc obj = new AdvaceCalc();
         int option, num1 , num2, result;
 
         System.out.println("Enter Operation");
@@ -22,29 +49,27 @@ public class SimpleCalci{
 
         switch (option) {
             case 1:
-                result = num1 + num2;
+                result = obj.addition(num1, num2);
                 System.out.println(result);
                 break;
 
             case 2:
-                result = num1 - num2;
+                result = obj.subtraction(num1, num2);
                 System.out.println(result);
                 break;
 
             case 3:
-                result = num1 * num2;
+                result = obj.Multiplication(num1, num2);
                 System.out.println(result);
                 break;
 
             case 4:
-                result = num1 / num2;
+                result = obj.Division(num1, num2);
                 System.out.println(result);
                 break;
 
             default:
-                break;
-                
+                break;       
         }
-        
     }
 }

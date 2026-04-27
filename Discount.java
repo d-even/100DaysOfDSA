@@ -1,4 +1,4 @@
-import java.util.*;
+
 import java.util.Scanner; 
 public class Discount{
     public static void main(String[] args) {
@@ -10,6 +10,10 @@ public class Discount{
             // int result = (n - (n * 0.1));
         }
         System.out.println(result);
-        sout
+        else if (n > 1500) {
+            System.out.println(result);
+        }else {
+            
+        }
     }
 }

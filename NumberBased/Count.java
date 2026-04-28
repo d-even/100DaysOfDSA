@@ -1,7 +1,7 @@
 public class Count {
     public static void main(String[] args) {
         
-        int num = 0;
+        int num = 12;
         int count = 0;
 
         if(num == 0){

@@ -8,5 +8,6 @@ public class SumNum {
             sum = sum + digit;
             num = num / 10;
         }
+        System.out.println(sum);
     }
 }

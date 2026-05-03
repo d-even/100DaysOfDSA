@@ -7,13 +7,15 @@ public class Discount{
         int result = 0;
         
         if(n > 1000){
-            // int result = (n - (n * 0.1));
+            // int result = (n - (n * 0.1));System.out.println(result);
         }
-        System.out.println(result);
-        else if (n > 1500) {
-            System.out.println(result);
-        }else {
+        
+        else if (condition:var(boolean)) {
+            
+        } 
+        else {
+            
+        }
             
         }
     }
-}

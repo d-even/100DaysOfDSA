@@ -1,4 +1,3 @@
-package Leetcode;
 public class BlubSwitcher {
     public static void main(String[] args) {
         int n =10;

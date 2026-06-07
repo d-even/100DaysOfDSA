@@ -1,23 +1,61 @@
-import java.util.Arrays;
-import java.util.Collections;
 
 public class Solution {
     public static void main(String[] args) {
 
-        Integer[] arr = {1, 3, 2};
-        int total = 0;
 
-        Arrays.sort(arr, Collections.reverseOrder());
+        int n = 10;
+        int count = 0;
+        int[] arr = new int[n];
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 3 != 2) {
-                total += arr[i];
-System.out.println(arr[i]);
-            }
+        if(n == 1){
+            System.out.println(count);
         }
+
+        for (int i = 0; i < n; i++) {
+            if(n)
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+//         Integer[] arr = {1, 3, 2};
+//         int total = 0;
+
+//         Arrays.sort(arr, Collections.reverseOrder());
+
+//         for (int i = 0; i < arr.length; i++) {
+//             if (arr[i] % 3 != 2) {
+//                 total += arr[i];
+// System.out.println(arr[i]);
+//             }
+//         }
         
 
-        System.out.println(total);
+//         System.out.println(total);
     
 
 

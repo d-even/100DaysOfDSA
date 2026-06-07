@@ -3,21 +3,7 @@ public class Solution {
     public static void main(String[] args) {
 
 
-        int n = 10;
-        int count = 0;
-        int[] arr = new int[n];
-
-        if(n == 1){
-            System.out.println(count);
-        }
-
-        for (int i = 0; i < n; i++) {
-            if(n)
-        }
-
-
-
-
+    
 
 
 

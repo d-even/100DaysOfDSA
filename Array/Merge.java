@@ -11,11 +11,11 @@ public class Merge {
         int c =  a + b;
         int[] res = new int[c];
 
-        for (int i = 0; i < a; i = i + 1) {
+        for (int i = 0; i < a; i++) {
             res[i] = nums1[i];
         }
 
-        for (int i = 0; i < b; i = i + 1) {
+        for (int i = 0; i < b; i++) {
             res[a + i] = nums2[i];
         }
         Arrays.sort(res);

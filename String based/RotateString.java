@@ -4,11 +4,13 @@ public class RotateString{
         String goal = "cdeab";
 
        if(s.length() == goal.length()){
-            String update = s + s;
-            System.out.println(update.contains(goal));
+            String updatedString = s + s;
+            System.out.println(updatedString);
+            System.out.println(updatedString.contains(goal));
        }
        else{
         System.out.println("false");
        }
+       
     }
 }
